@@ -1,0 +1,26 @@
+• Sc: stamina lost by Pandora after defeating the demon
+• Tr: number of turns needed to recover stamina after the fight
+• Sr: amount of stamina recovered Tr turns after the fight
+• Na:numberofturnsinwhichyou’llearnfragmentsfordefeatingthedemon
+• List of Na elements where ∀ai, i ∈ [0, Na) : ai ∈ N. Each ai represents the number of fragments earned in the i − th turn after the fight for performing the ritual to put the fragments back in the jar
+
+** INPUTS **
+The integer Si is the amount of stamina the player starts with
+• The integer Smax is the maximum amount of stamina you can cumulate
+during the fight
+• The integer T is the number of turns available
+• The integer D is the number of demons available
+
+The integer Sc is the amount of stamina points you consume to face the demon; you cannot face a demon if you don’t have at least this amount of stamina;
+The integer Tr is the number of turns you have to wait before recovering stamina;
+The integer Sr is the amount of stamina that you recover after Tr turns have passed;
+The integer Na is the number of turns you’ll earn fragments after defeating the demon;
+A sequence of Na integers ai , i ∈ [0, Na ) represents the amount of frag- ments you’ll earn in the i-th subsequent turn after the fight.
+
+** INPUT FILE EXAMPLE **
+5 20 10 5
+16 4 18 13 0 10 5 0 0 7 4 1 1 6 10 2 9
+2 1 11 18 0 6 1 7 3 4 7 0 5 7 9 5 6 3 9 9 0 5
+3 1 5 15 0 5 4 5 0 10 1 8 3 8 2 4 7 2 1
+7 6 10 13 8 2 5 0 0 4 3 9 6 4 1 6 4
+17 5 7 16 5 1 4 5 1 8 9 10 9 7 2 8 9 7 3 10
