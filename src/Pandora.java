@@ -1,7 +1,12 @@
-package src;
-
 public class Pandora {
-    
-    private int stamina;
 
+    public int stamina;
+    public int maxStamina;
+
+    public Pandora(int stamina, int maxStamina){
+
+        this.stamina = stamina;
+        this.maxStamina = maxStamina;
+
+    }
 }

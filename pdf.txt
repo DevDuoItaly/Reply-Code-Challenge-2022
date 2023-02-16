@@ -1,7 +1,7 @@
 • Sc: stamina lost by Pandora after defeating the demon
 • Tr: number of turns needed to recover stamina after the fight
 • Sr: amount of stamina recovered Tr turns after the fight
-• Na:numberofturnsinwhichyou’llearnfragmentsfordefeatingthedemon
+• Na: number of turns in which you’ll earn fragments for defeating the demon
 • List of Na elements where ∀ai, i ∈ [0, Na) : ai ∈ N. Each ai represents the number of fragments earned in the i − th turn after the fight for performing the ritual to put the fragments back in the jar
 
 ** INPUTS **
